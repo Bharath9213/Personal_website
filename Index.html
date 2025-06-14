@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style1.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header-container">
+  <img src="Bharath6.png" class="logo-image" alt="My Logo" />
+
+  <div class="center-profile">
+    <img src="Bharath5.jpg" class="profile-photo" alt="Profile Photo" />
+
+    <div class="name-info">
+      <h1>Bharath K</h1>
+      <p>Full Stack Developer | Tech Enthusiast</p>
+    </div>
+  </div>
+</header>
+
+  <nav>
+    <button onclick="showSection('about')">About Me</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('hobbies')">Hobbies</button>
+    <button onclick="showSection('gallery')">Gallery</button>
+    <button onclick="showSection('resume')">Resume</button>
+  </nav>
+
+  <main>
+    <section id="about" class="content-section
+    with-background">
+      <h2>About Me</h2>
+      <p>Hello! I'm Bharath, a passionate full stack developer with experience in building responsive websites and applications using technologies like HTML, CSS, JavaScript, and Python. I enjoy solving real-world problems and creating beautiful user experiences.</p>
+    </section>
+
+    <section id="skills" class="content-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>💻 HTML, CSS, JavaScript</li>
+        <li>⚙️ Python,Java,C++,React.js</li>
+        <li>🛠 Git, GitHub</li>
+        <li>📱 Responsive Web Design</li>
+        <li>🧠 Problem Solving</li>
+      </ul>
+    </section>
+
+    <section id="hobbies" class="content-section">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>🎨 Drawing & Design</li>
+        <li>🎮 Gaming</li>
+        <li>🎧 Listening to Music</li>
+        <li>📷 Photography</li>
+        <li>🌐 Learning New Tech</li>
+      </ul>
+    </section>
+
+    <section id="gallery" class="content-section">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="Bharath1.jpg" alt="Gallery Photo 1">
+        <img src="Bharath2.jpg" alt="Gallery Photo 2">
+      </div>
+    </section>
+
+    <section id="resume" class="content-section">
+      <h2>My Resume</h2>
+      <p><a href="Bharaths's Resume.pdf.pdf" download>📄 Click here to download my resume</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bharath K. All rights reserved.</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
